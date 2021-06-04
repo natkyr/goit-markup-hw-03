@@ -29,6 +29,9 @@ body {
   font-style: normal;
   color: var(--main-text-color);
 }
+.hidden-heading {
+  display: none;
+}
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -100,6 +103,9 @@ body {
 .media-list .link {
   color: var(--text-color);
 }
+.header .link {
+  padding: 32px 0px;
+}
 .header .link:hover,
 .header .link:focus {
   color: var(--accent-color);
@@ -108,10 +114,11 @@ body {
 .hero {
   background: var(--background-dark-color);
   color: var(--white-color);
+  padding: 200px 0px;
+  text-align: center;
 }
 .hero .container {
-  padding: 106px 252px;
-  text-align: center;
+  padding: 0px 252px;
 }
 .hero-title {
   font-weight: 900;
@@ -135,6 +142,10 @@ body {
 }
 
 /* Service style*/
+.service-info {
+  margin-bottom: 94px;
+}
+
 .service .title {
   font-weight: bold;
   font-size: 14px;
@@ -174,12 +185,15 @@ body {
 .team {
   background: var(--background-light-color);
 }
+.member-info {
+  margin: 30px 0px;
+  text-align: center;
+}
 .member-name {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.171;
   letter-spacing: 0.03em;
-  margin-top: 30px;
   margin-bottom: 10px;
 }
 .member-position {
@@ -187,7 +201,6 @@ body {
   font-size: 16px;
   line-height: 1.171;
   letter-spacing: 0.03em;
-  margin-bottom: 30px;
 }
 
 .team-list {
@@ -251,36 +264,30 @@ body {
   margin-bottom: 30px;
   width: 370px;
 }
+.project-info {
+  margin: 20px 24px;
+}
 .project-title {
   font-weight: bold;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  margin-top: 20px;
   margin-bottom: 4px;
-  margin-left: 24px;
 }
 .project-type {
   color: var(--text-color);
   font-size: 16px;
   line-height: 1.171;
   letter-spacing: 0.03em;
-  margin-bottom: 20px;
-  margin-left: 24px;
 }
 /*CONTACTS STYLE */
 
 .contacts {
   background: var(--background-dark-color);
   color: var(--white-color);
-}
-.contacts .container {
   padding-top: 60px;
   padding-bottom: 60px;
 }
-/* .contacts .logo {
-  margin-bottom: 20px;
-} */
 .contacts address {
   margin-top: 20px;
 }
