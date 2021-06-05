@@ -74,8 +74,6 @@ body {
 .header .container {
   display: flex;
   align-items: center;
-  padding-top: 24px;
-  padding-bottom: 25px;
 }
 .header .list {
   font-weight: 500;
@@ -105,6 +103,7 @@ body {
 }
 .header .link {
   padding: 32px 0px;
+  display: block;
 }
 .header .link:hover,
 .header .link:focus {
@@ -142,9 +141,6 @@ body {
 }
 
 /* Service style*/
-.service-info {
-  margin-bottom: 94px;
-}
 
 .service .title {
   font-weight: bold;
@@ -170,6 +166,9 @@ body {
   letter-spacing: 0.03em;
 }
 /* What we do STYLES */
+.what-we-do-section {
+  padding-top: 0px;
+}
 .work-list {
   display: flex;
 }
@@ -220,7 +219,7 @@ body {
 .filter-list {
   display: flex;
   justify-content: center;
-  margin-bottom: 34px;
+  margin-bottom: 50px;
 }
 .filter-list li:not(:last-child) {
   margin-right: 8px;
@@ -265,7 +264,7 @@ body {
   width: 370px;
 }
 .project-info {
-  margin: 20px 24px;
+  padding: 20px 24px;
 }
 .project-title {
   font-weight: bold;
